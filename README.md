@@ -10,7 +10,7 @@ pnggrain [<options> ...] [<filename>]
 
 Default filename is `pnggrain.png`.  Specify a *filename* argument to
 override it.  Use `-` as your *filename* argument to write the PNG to
-stdout.
+stdout.  Use `./-` to write to a file called `-`.
 
 ## Options
 
