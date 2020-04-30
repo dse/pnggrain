@@ -35,3 +35,7 @@ stdout.  Use `./-` to write to a file called `-`.
 ## Build Requirements
 
 Requires [libpng](http://libpng.org/pub/png/libpng.html) and any C compiler.
+
+## See Also
+
+-   [pnggradient](https://github.com/dse/pnggradient)

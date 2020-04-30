@@ -1,10 +1,11 @@
 SRC = src/pnggrain.c
+HDR = src/pnggrain.h
 BIN = bin/pnggrain
 
-$(BIN): $(SRC)
+$(BIN): $(SRC) $(HDR) Makefile
 	cc -o $(BIN) $(SRC) `pkg-config --libs --cflags libpng`
 
-examples: $(BIN)
+examples: $(BIN) Makefile
 	mkdir -p examples
 	find examples -type f -name '*.png' -exec rm {} +
 	bin/pnggrain examples/example.png
