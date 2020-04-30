@@ -32,9 +32,25 @@ stdout.  Use `./-` to write to a file called `-`.
 -   ![darken only](examples/darken-only.png)
 -   ![brighten only](examples/brighten-only.png)
 
-## Build Requirements
+## Build Process and Requirements
 
-Requires [libpng](http://libpng.org/pub/png/libpng.html) and any C compiler.
+Requires [libpng](http://libpng.org/pub/png/libpng.html), any C
+compiler, and a `make` utility.
+
+If you don't have the
+[`pkg-config`](https://www.freedesktop.org/wiki/Software/pkg-config/)
+utility, then you have no soul and I hate you.
+
+(Not really.)
+
+To build the executable, simply type `make`, and the compiler will
+store the executable as `bin/pnggrain`.
+
+There is no `make install` process at this time.  Simply copy
+`bin/pnggrain` to `/usr/local/bin` or something.
+
+There is no manual page.  Simply type `pnggrain -h` for help.  There
+are no long options.
 
 ## See Also
 
