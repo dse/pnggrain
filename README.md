@@ -27,10 +27,11 @@ stdout.  Use `./-` to write to a file called `-`.
 
 ## Examples
 
-![default type example](examples/example.png)
+-   ![default type example](examples/example.png)
+-   ![opaque "static" image](examples/opaque.png)
+-   ![darken only](examples/darken-only.png)
+-   ![brighten only](examples/brighten-only.png)
 
-![opaque "static" image](examples/opaque.png)
+## Build Requirements
 
-![darken only](examples/darken-only.png)
-
-![brighten only](examples/brighten-only.png)
+Requires [libpng](http://libpng.org/pub/png/libpng.html) and any C compiler.
